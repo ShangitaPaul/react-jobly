@@ -50,3 +50,9 @@ https://curric.rithmschool.com/springboard/exercises/react-jobly/
 - NotFound: Page for handling 404 errors.
 - Footer: Footer section of the app.
   
+# Modifications
+
+Below is a document of all my changes and additions to the files in this project:
+
+- Step 0: Setup
+- Step Two: Make an API Helper in /jobly-frontend/src/api,js
