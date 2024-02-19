@@ -5,8 +5,9 @@ https://curric.rithmschool.com/springboard/exercises/react-jobly/
   - Navbar
   - Routes
     - Home
-    - LoginForm
-    - SignupForm
+    - Auth
+      - LoginForm
+      - SignupForm
     - UserProfile
       - UserDetail
       - UserUpdateForm
@@ -23,13 +24,14 @@ https://curric.rithmschool.com/springboard/exercises/react-jobly/
     - NotFound
   - Footer
 
+
   ### Explanations
-  Explanation:
 
 - App: The root component containing the overall structure of the app.
 - Navbar: Navigation bar for the app.
 - Routes: Handles routing for different pages.
 - Home: Landing page or dashboard.
+- Auth: Authentication-related components.
 - LoginForm: Form for user login.
 - SignupForm: Form for user registration.
 - UserProfile: User profile page.
