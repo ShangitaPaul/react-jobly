@@ -68,4 +68,6 @@ Below is a document of all my changes and additions to the files in this project
   - Created Homepage folder in /jobly-frontend/src/Homepage path 
   - Created Routes folder in /jobly-frontend/src/Routes path
   - Created jobs folder " "
-  - Created routes-nav folder in " " 
+  - Created routes-nav folder in " "
+
+**** I beleive the problem may be that I did the setup incorrectly, since it did not create the nessesary files from the sql file, as directed to in the instructions. 
