@@ -54,5 +54,8 @@ https://curric.rithmschool.com/springboard/exercises/react-jobly/
 
 Below is a document of all my changes and additions to the files in this project:
 
-- Step 0: Setup
+- Step 0: Setup. Generated a folder call "jobly-frontend"
+- Step 1: Generated Component Hierarchy (above)
 - Step Two: Make an API Helper in /jobly-frontend/src/api,js
+- renamed index to Homepage and created Homepage folder in /jobly-frontend/src/Homepage path
+- Created Routes folder in /jobly-frontend/src/Routes path 
