@@ -1,73 +1,70 @@
-# react-jobly
-https://curric.rithmschool.com/springboard/exercises/react-jobly/
-# Component Hierarchy
-- App
-  - Navbar
-  - Routes
-    - Home
-    - Auth
-      - LoginForm
-      - SignupForm
-    - UserProfile
-      - UserDetail
-      - UserUpdateForm
-    - Jobs
-      - JobList
-        - JobCard
-      - JobFilter
-      - JobDetail
-      - ApplyModal
-    - Applications
-      - ApplicationList
-        - ApplicationCard
-      - ApplicationDetail
-    - NotFound
-  - Footer
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-  ### Explanations
+## Available Scripts
 
-- App: The root component containing the overall structure of the app.
-- Navbar: Navigation bar for the app.
-- Routes: Handles routing for different pages.
-- Home: Landing page or dashboard.
-- Auth: Authentication-related components.
-- LoginForm: Form for user login.
-- SignupForm: Form for user registration.
-- UserProfile: User profile page.
-- UserDetail: Displays user information.
-- UserUpdateForm: Form for updating user profile.
-- Jobs: Jobs page.
-- JobList: List of available jobs.
-- JobCard: Displays individual job details.
-- JobFilter: Allows users to filter jobs.
-- JobDetail: Detailed view of a specific job.
-- ApplyModal: Modal for applying to a job.
-- Applications: Page displaying user's in-progress job applications.
-- ApplicationList: List of job applications.
-- ApplicationCard: Displays individual application details.
-- ApplicationDetail: Detailed view of a specific job application.
-- NotFound: Page for handling 404 errors.
-- Footer: Footer section of the app.
-  
-# Modifications
+In the project directory, you can run:
 
-Below is a document of all my changes and additions to the files in this project:
+### `npm start`
 
-- Step 0: Setup. Generated a folder call "jobly-frontend" containing files
-    - setupTest.js
-    - serviceWorkers.js
-    - reportWebVitals.js
-    - logp.svg
-    - Api.js
-    - Api.css
-- Step 1: Generated Component Hierarchy (above)
-- Step Two: Make an API Helper in /jobly-frontend/src/api,js
-- Step THree:
-  - moved api.js to new folder created inside /jobly-frontend/src called "api"
-  - Created Homepage folder in /jobly-frontend/src/Homepage path 
-  - Created Routes folder in /jobly-frontend/src/Routes path
-  - Created jobs folder " "
-  - Created routes-nav folder in " "
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**** I beleive the problem may be that I did the setup incorrectly, since it did not create the nessesary files from the sql file, as directed to in the instructions. 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
